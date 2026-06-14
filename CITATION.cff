@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "The V.E.N.K.A.T Framework: Enterprise Architecture for Agentic AI"
+message: "If you use this framework, please cite it as below."
+type: software
+authors:
+  - family-names: Kondepati
+    given-names: Venkata
+year: 2026
+repository-code: "https://github.com/vkondepati/venkat-framework-agentic-ai"
+abstract: "A six-layer enterprise architecture framework for Agentic AI: Verified Data, Event-Driven Architecture, Native Spatial Intelligence, Knowledge Graphs, AI Orchestration, and Trust & Governance."
