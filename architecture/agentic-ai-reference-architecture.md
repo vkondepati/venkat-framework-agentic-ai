@@ -1,5 +1,7 @@
 # Agentic AI Reference Architecture
 
+![The real AI gap is architecture](../docs/assets/real-ai-gap-architecture.svg)
+
 ```mermaid
 flowchart TD
     A[Enterprise Systems] --> B[Verified Data Layer]

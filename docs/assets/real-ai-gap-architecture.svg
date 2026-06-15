@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800" role="img" aria-labelledby="title desc">
+  <title id="title">The real AI gap is architecture</title>
+  <desc id="desc">A comparison between old world dashboard architecture and new world agentic AI architecture based on the V.E.N.K.A.T Framework.</desc>
+  <defs>
+    <style>
+      .title{font:900 76px Arial,sans-serif;fill:#f4f4f4}
+      .gold{fill:#f2c84b}
+      .head{font:800 31px Arial,sans-serif;fill:#dfe8f6}
+      .body{font:600 22px Arial,sans-serif;fill:#eaf0f8}
+      .small{font:500 19px Arial,sans-serif;fill:#cbd6e7}
+      .old{fill:#23272f;stroke:#68707c}
+      .new{fill:#102a50;stroke:#4db8ff}
+    </style>
+  </defs>
+  <rect width="1200" height="1800" fill="#080c13"/>
+  <text x="600" y="95" text-anchor="middle" class="title">THE <tspan class="gold">REAL</tspan> AI GAP</text>
+  <text x="600" y="155" text-anchor="middle" class="head">It is not the model. It is the architecture.</text>
+  <line x1="600" y1="220" x2="600" y2="1258" stroke="#dad5c8" stroke-width="5" stroke-dasharray="18 18"/>
+  <text x="292" y="245" text-anchor="middle" class="head">OLD WORLD ARCHITECTURE</text>
+  <text x="292" y="288" text-anchor="middle" class="body" fill="#9ca8b8">BUILT FOR DASHBOARDS</text>
+  <g transform="translate(115 366) rotate(-5 175 300)">
+    <rect class="old" x="0" y="0" width="350" height="74"/>
+    <rect class="old" x="18" y="82" width="350" height="74"/>
+    <rect class="old" x="-8" y="164" width="350" height="74"/>
+    <rect class="old" x="24" y="246" width="350" height="74"/>
+    <rect class="old" x="-2" y="328" width="350" height="74"/>
+    <rect class="old" x="14" y="410" width="350" height="74"/>
+    <text x="175" y="46" text-anchor="middle" class="body">SILOED DATA</text>
+    <text x="193" y="128" text-anchor="middle" class="body">BATCH PROCESSES</text>
+    <text x="167" y="210" text-anchor="middle" class="body">LIMITED CONTEXT</text>
+    <text x="199" y="292" text-anchor="middle" class="body">DISCONNECTED SYSTEMS</text>
+    <text x="173" y="374" text-anchor="middle" class="body">MANUAL WORKFLOWS</text>
+    <text x="189" y="456" text-anchor="middle" class="body">REACTIVE GOVERNANCE</text>
+  </g>
+  <g transform="translate(110 910)" class="small">
+    <text x="0" y="0">x Slow decisions</text>
+    <text x="0" y="42">x Incomplete context</text>
+    <text x="0" y="84">x High operational cost</text>
+    <text x="0" y="126">x Humans in every loop</text>
+    <text x="0" y="168">x Risk of inconsistency</text>
+  </g>
+  <rect x="107" y="1132" width="370" height="78" rx="8" fill="#120e0e" stroke="#ff5d5d"/>
+  <text x="292" y="1164" text-anchor="middle" class="body">AI THAT OBSERVES</text>
+  <text x="292" y="1196" text-anchor="middle" class="body" fill="#ff7d7d">BUT CANNOT ACT</text>
+  <text x="908" y="245" text-anchor="middle" class="head">NEW WORLD ARCHITECTURE</text>
+  <text x="908" y="288" text-anchor="middle" class="body" fill="#67c3ff">BUILT FOR AGENTIC AI</text>
+  <g transform="translate(735 350)">
+    <rect class="new" x="0" y="0" width="350" height="78"/>
+    <rect class="new" x="0" y="88" width="350" height="78" fill="#0b3c59"/>
+    <rect class="new" x="0" y="176" width="350" height="78" fill="#113b75"/>
+    <rect class="new" x="0" y="264" width="350" height="78" fill="#2b2768"/>
+    <rect class="new" x="0" y="352" width="350" height="78" fill="#60311a"/>
+    <rect class="new" x="0" y="440" width="350" height="78" fill="#514108"/>
+    <text x="31" y="51" class="body" fill="#9be58b">V</text><text x="76" y="35" class="body">VERIFIED DATA</text><text x="76" y="61" class="small">Trust starts at the source</text>
+    <text x="31" y="139" class="body" fill="#55dfe8">E</text><text x="76" y="123" class="body">EVENT-DRIVEN</text><text x="76" y="149" class="small">Real-time signals</text>
+    <text x="31" y="227" class="body" fill="#72baff">N</text><text x="76" y="211" class="body">NATIVE SPATIAL</text><text x="76" y="237" class="small">Where things happen</text>
+    <text x="31" y="315" class="body" fill="#b694ff">K</text><text x="76" y="299" class="body">KNOWLEDGE GRAPHS</text><text x="76" y="325" class="small">Relationships, not just data</text>
+    <text x="31" y="403" class="body" fill="#ffad63">A</text><text x="76" y="387" class="body">AI ORCHESTRATION</text><text x="76" y="413" class="small">Connect systems into action</text>
+    <text x="31" y="491" class="body" fill="#ffe984">T</text><text x="76" y="475" class="body">TRUST AND GOVERNANCE</text><text x="76" y="501" class="small">Control decisions at scale</text>
+  </g>
+  <g transform="translate(750 910)" class="small">
+    <text x="0" y="0">ok Real-time decisions</text>
+    <text x="0" y="42">ok Complete context</text>
+    <text x="0" y="84">ok Lower operational cost</text>
+    <text x="0" y="126">ok AI that reasons and acts</text>
+    <text x="0" y="168">ok Trusted and governed AI</text>
+  </g>
+  <rect x="725" y="1132" width="370" height="78" rx="8" fill="#0b160e" stroke="#9be86e"/>
+  <text x="910" y="1164" text-anchor="middle" class="body">AI THAT UNDERSTANDS,</text>
+  <text x="910" y="1196" text-anchor="middle" class="body" fill="#bdf48c">DECIDES AND ACTS</text>
+  <rect x="0" y="1265" width="1200" height="325" fill="#070b12" stroke="#30394a"/>
+  <text x="600" y="1352" text-anchor="middle" class="title" font-size="56">THE V.E.N.K.A.T FRAMEWORK</text>
+  <text x="600" y="1404" text-anchor="middle" class="head">THE ARCHITECTURAL FOUNDATION FOR AGENTIC AI</text>
+  <text x="600" y="1495" text-anchor="middle" class="head">Signal -> Context -> Reasoning -> Action -> Feedback</text>
+  <rect x="40" y="1640" width="1120" height="92" rx="12" fill="#0a101c" stroke="#d3ad43"/>
+  <text x="600" y="1697" text-anchor="middle" class="head">AI will not transform your enterprise. Architecture will.</text>
+</svg>
