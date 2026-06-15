@@ -1,52 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
   <title id="title">The V.E.N.K.A.T Framework for Agentic AI</title>
-  <desc id="desc">Six architectural layers around the V.E.N.K.A.T Framework: Verified Data, Event-Driven Architecture, Native Spatial Intelligence, Knowledge Graphs, AI Orchestration, and Trust and Governance.</desc>
+  <desc id="desc">A clean six-layer V.E.N.K.A.T Framework diagram with Verified Data, Event-Driven Architecture, Native Spatial Intelligence, Knowledge Graphs, AI Orchestration, and Trust and Governance around a central framework hub.</desc>
   <defs>
-    <linearGradient id="center" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b6aa2"/>
-      <stop offset="1" stop-color="#031b42"/>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f76b4"/>
+      <stop offset="1" stop-color="#03244f"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0d1726" flood-opacity=".22"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#182235" flood-opacity=".2"/>
     </filter>
     <style>
-      .label{font:700 31px Arial,sans-serif;fill:#fff}
-      .sub{font:600 20px Arial,sans-serif;fill:#fff}
-      .small{font:500 17px Arial,sans-serif;fill:#eef4fb}
-      .icon{font:700 58px Arial,sans-serif;fill:#fff}
+      .letter{font:800 58px Arial,sans-serif;fill:#fff}
+      .label{font:800 26px Arial,sans-serif;fill:#fff}
+      .small{font:600 18px Arial,sans-serif;fill:#f5f8fb}
+      .hubTitle{font:800 30px Arial,sans-serif;fill:#fff;letter-spacing:4px}
+      .hubSub{font:800 32px Arial,sans-serif;fill:#fff}
+      .hubTiny{font:600 19px Arial,sans-serif;fill:#fff}
+      .footer{font:800 34px Arial,sans-serif;fill:#243047}
     </style>
   </defs>
-  <rect width="1200" height="780" fill="#f4f7fb"/>
-  <circle cx="600" cy="372" r="186" fill="url(#center)" stroke="#e9f4ff" stroke-width="11" filter="url(#shadow)"/>
-  <circle cx="600" cy="372" r="162" fill="none" stroke="#87bce6" stroke-width="4"/>
-  <text x="600" y="346" text-anchor="middle" class="label" font-size="44">V.E.N.K.A.T</text>
-  <text x="600" y="392" text-anchor="middle" class="label">FRAMEWORK</text>
-  <text x="600" y="435" text-anchor="middle" class="sub">For Agentic AI</text>
+  <rect width="1400" height="900" fill="#f4f7fb"/>
   <g filter="url(#shadow)">
-    <path d="M474 44h252l72 55v108l-72 55H474l-72-55V99z" fill="#48a83d" stroke="#fff" stroke-width="6"/>
-    <text x="600" y="99" text-anchor="middle" class="icon">V</text>
-    <text x="600" y="141" text-anchor="middle" class="sub">Verified Data Sources</text>
-    <text x="600" y="175" text-anchor="middle" class="small">Trusted and validated data</text>
-    <path d="M832 185h224l74 52v106l-74 52H832l-74-52V237z" fill="#f1871d" stroke="#fff" stroke-width="6"/>
-    <text x="944" y="249" text-anchor="middle" class="icon">E</text>
-    <text x="944" y="291" text-anchor="middle" class="sub">Event-Driven Architecture</text>
-    <text x="944" y="324" text-anchor="middle" class="small">Real-time processing</text>
-    <path d="M832 429h224l74 52v106l-74 52H832l-74-52V481z" fill="#118b90" stroke="#fff" stroke-width="6"/>
-    <text x="944" y="494" text-anchor="middle" class="icon">N</text>
-    <text x="944" y="536" text-anchor="middle" class="sub">Native Spatial Intelligence</text>
-    <text x="944" y="569" text-anchor="middle" class="small">Location-based context</text>
-    <path d="M474 520h252l72 55v108l-72 55H474l-72-55V575z" fill="#7461b9" stroke="#fff" stroke-width="6"/>
-    <text x="600" y="581" text-anchor="middle" class="icon">K</text>
-    <text x="600" y="623" text-anchor="middle" class="sub">Knowledge Graph Layer</text>
-    <text x="600" y="656" text-anchor="middle" class="small">Connected insights</text>
-    <path d="M144 429h224l74 52v106l-74 52H144l-74-52V481z" fill="#cf2d3b" stroke="#fff" stroke-width="6"/>
-    <text x="256" y="494" text-anchor="middle" class="icon">A</text>
-    <text x="256" y="536" text-anchor="middle" class="sub">AI Orchestration</text>
-    <text x="256" y="569" text-anchor="middle" class="small">Workflow automation</text>
-    <path d="M144 185h224l74 52v106l-74 52H144l-74-52V237z" fill="#135d93" stroke="#fff" stroke-width="6"/>
-    <text x="256" y="249" text-anchor="middle" class="icon">T</text>
-    <text x="256" y="291" text-anchor="middle" class="sub">Trust and Governance</text>
-    <text x="256" y="324" text-anchor="middle" class="small">Security and compliance</text>
+    <circle cx="700" cy="420" r="165" fill="url(#hub)" stroke="#dbeaff" stroke-width="12"/>
+    <circle cx="700" cy="420" r="140" fill="none" stroke="#76b7e7" stroke-width="4"/>
+    <text x="700" y="392" text-anchor="middle" class="hubTitle">V.E.N.K.A.T</text>
+    <text x="700" y="441" text-anchor="middle" class="hubSub">FRAMEWORK</text>
+    <text x="700" y="486" text-anchor="middle" class="hubTiny">For Agentic AI</text>
   </g>
-  <text x="600" y="748" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#313d4f">The V.E.N.K.A.T Framework for Agentic AI</text>
+
+  <g filter="url(#shadow)">
+    <path d="M505 70h390l72 64v112l-72 64H505l-72-64V134z" fill="#43a83b" stroke="#fff" stroke-width="6"/>
+    <text x="700" y="137" text-anchor="middle" class="letter">V</text>
+    <text x="700" y="183" text-anchor="middle" class="label">Verified Data Sources</text>
+    <text x="700" y="219" text-anchor="middle" class="small">Trusted and validated data</text>
+
+    <path d="M950 270h300l72 58v112l-72 58H950l-72-58V328z" fill="#f1871d" stroke="#fff" stroke-width="6"/>
+    <text x="1100" y="339" text-anchor="middle" class="letter">E</text>
+    <text x="1100" y="385" text-anchor="middle" class="label">Event-Driven</text>
+    <text x="1100" y="420" text-anchor="middle" class="small">Real-time processing</text>
+
+    <path d="M950 545h300l72 58v112l-72 58H950l-72-58V603z" fill="#118f91" stroke="#fff" stroke-width="6"/>
+    <text x="1100" y="614" text-anchor="middle" class="letter">N</text>
+    <text x="1100" y="660" text-anchor="middle" class="label">Spatial Intelligence</text>
+    <text x="1100" y="695" text-anchor="middle" class="small">Location-based context</text>
+
+    <path d="M505 610h390l72 64v112l-72 64H505l-72-64V674z" fill="#7461b9" stroke="#fff" stroke-width="6"/>
+    <text x="700" y="677" text-anchor="middle" class="letter">K</text>
+    <text x="700" y="723" text-anchor="middle" class="label">Knowledge Graphs</text>
+    <text x="700" y="759" text-anchor="middle" class="small">Connected insights</text>
+
+    <path d="M150 545h300l72 58v112l-72 58H150l-72-58V603z" fill="#cf2d3b" stroke="#fff" stroke-width="6"/>
+    <text x="300" y="614" text-anchor="middle" class="letter">A</text>
+    <text x="300" y="660" text-anchor="middle" class="label">AI Orchestration</text>
+    <text x="300" y="695" text-anchor="middle" class="small">Workflow automation</text>
+
+    <path d="M150 270h300l72 58v112l-72 58H150l-72-58V328z" fill="#16659b" stroke="#fff" stroke-width="6"/>
+    <text x="300" y="339" text-anchor="middle" class="letter">T</text>
+    <text x="300" y="385" text-anchor="middle" class="label">Trust and Governance</text>
+    <text x="300" y="420" text-anchor="middle" class="small">Security and compliance</text>
+  </g>
+
+  <text x="700" y="885" text-anchor="middle" class="footer">The V.E.N.K.A.T Framework for Agentic AI</text>
 </svg>

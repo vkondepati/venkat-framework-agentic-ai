@@ -212,7 +212,6 @@ h3 {
 .framework-image,
 .gap-image {
   width: 100%;
-  max-height: 760px;
   object-fit: contain;
   background: var(--white);
   border: 1px solid var(--line);
@@ -222,7 +221,8 @@ h3 {
 
 .layer-grid,
 .pattern-grid,
-.use-case-grid {
+.use-case-grid,
+.resource-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
@@ -231,6 +231,7 @@ h3 {
 .layer-card,
 .pattern-grid article,
 .use-case,
+.resource-card,
 .comparison-list article,
 .feedback-panel {
   padding: 22px;
@@ -266,12 +267,14 @@ h3 {
 .layer-card p,
 .pattern-grid p,
 .use-case p,
+.resource-card p,
 .comparison-list p {
   margin: 0;
   color: var(--muted);
 }
 
 .use-case a,
+.resource-card a,
 .article-list a,
 .profile-link {
   display: inline-flex;
@@ -464,7 +467,8 @@ textarea {
   .concept-layout,
   .layer-grid,
   .pattern-grid,
-  .use-case-grid {
+  .use-case-grid,
+  .resource-grid {
     grid-template-columns: 1fr;
   }
 }

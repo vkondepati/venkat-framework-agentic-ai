@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>V.E.N.K.A.T Framework | Agentic AI Enterprise Architecture</title>
-    <meta name="description" content="A static website covering the V.E.N.K.A.T Framework concepts, architecture patterns, use cases, software mapping, framework comparisons, benefits, challenges, contact, and feedback.">
+    <meta name="description" content="A static website covering the V.E.N.K.A.T Framework, whitepaper, use cases, GitHub resources, publications, presentations, downloads, and community feedback.">
     <link rel="stylesheet" href="site/styles.css">
   </head>
   <body>
@@ -14,12 +14,15 @@
         <span>V.E.N.K.A.T Framework</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#concepts">Concepts</a>
-        <a href="#patterns">Patterns</a>
+        <a href="#home">Home</a>
+        <a href="#framework">Framework</a>
+        <a href="#whitepaper">Whitepaper</a>
         <a href="#use-cases">Use Cases</a>
-        <a href="#software">Software</a>
-        <a href="#comparison">Comparison</a>
-        <a href="#contact">Contact</a>
+        <a href="#github">GitHub</a>
+        <a href="#publications">Publications</a>
+        <a href="#presentations">Presentations</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#community">Community</a>
       </nav>
     </header>
 
@@ -30,8 +33,8 @@
           <h1 id="hero-title">The V.E.N.K.A.T Framework</h1>
           <p class="hero-text">A six-layer operating architecture for AI systems that observe trusted signals, understand context, reason over relationships, orchestrate action, and improve through governed feedback.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#concepts">Explore Framework</a>
-            <a class="button secondary" href="docs/articles-and-visuals.md">Read Articles</a>
+            <a class="button primary" href="#framework">Explore Framework</a>
+            <a class="button secondary" href="#publications">Read Publications</a>
           </div>
         </div>
       </section>
@@ -46,9 +49,9 @@
         </div>
       </section>
 
-      <section id="concepts" class="section-shell">
+      <section id="framework" class="section-shell">
         <div class="section-heading">
-          <p class="section-kicker">Framework Concepts</p>
+          <p class="section-kicker">Framework</p>
           <h2>Six layers from trusted data to governed autonomy</h2>
         </div>
         <div class="concept-layout">
@@ -88,7 +91,7 @@
         </div>
       </section>
 
-      <section id="patterns" class="band">
+      <section class="band">
         <div class="section-shell">
           <div class="section-heading">
             <p class="section-kicker">Architectural Patterns</p>
@@ -123,6 +126,25 @@
         </div>
       </section>
 
+      <section id="whitepaper" class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Whitepaper</p>
+          <h2>Long-form framework material and applied architecture guidance</h2>
+        </div>
+        <div class="resource-grid">
+          <article class="resource-card">
+            <h3>Logistics Use Case Whitepaper</h3>
+            <p>PDF reference material covering how the V.E.N.K.A.T Framework applies to logistics, dispatch, rerouting, customer communication, governance, and feedback.</p>
+            <a href="whitepaper/VENKAT_Framework_Logistics_Use_Case.pdf">Open PDF</a>
+          </article>
+          <article class="resource-card">
+            <h3>Framework Overview</h3>
+            <p>A concise Markdown reference for the six framework layers, operating model, architecture gap, and companion articles.</p>
+            <a href="docs/framework-overview.md">Open overview</a>
+          </article>
+        </div>
+      </section>
+
       <section id="use-cases" class="section-shell">
         <div class="section-heading">
           <p class="section-kicker">Example Use Cases</p>
@@ -152,66 +174,90 @@
         </div>
       </section>
 
-      <section id="software" class="band">
+      <section id="github" class="band">
         <div class="section-shell">
           <div class="section-heading">
-            <p class="section-kicker">Software Mapping</p>
-            <h2>Existing software categories mapped to V.E.N.K.A.T</h2>
+            <p class="section-kicker">GitHub</p>
+            <h2>Repository structure and open collaboration materials</h2>
           </div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Layer</th>
-                  <th>Software Categories</th>
-                  <th>Representative Examples</th>
-                  <th>Architecture Role</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Verified Data</td>
-                  <td>Data quality, catalogs, lineage, lakehouse, MDM</td>
-                  <td>Databricks, Snowflake, Collibra, Informatica, dbt, Great Expectations</td>
-                  <td>Certify data as trusted, traceable, observable, and governed.</td>
-                </tr>
-                <tr>
-                  <td>Event-Driven Architecture</td>
-                  <td>Streaming, messaging, CDC, event mesh</td>
-                  <td>Kafka, Confluent, Pulsar, Flink, Debezium, Solace</td>
-                  <td>Move from periodic insight to real-time operational awareness.</td>
-                </tr>
-                <tr>
-                  <td>Native Spatial Intelligence</td>
-                  <td>GIS, geospatial analytics, routing, mobility intelligence</td>
-                  <td>Esri ArcGIS, CARTO, Google Maps Platform, HERE, PostGIS, Kepler.gl</td>
-                  <td>Add where, proximity, route, terrain, service area, and network context.</td>
-                </tr>
-                <tr>
-                  <td>Knowledge Graphs</td>
-                  <td>Graph databases, ontology management, semantic layers</td>
-                  <td>Neo4j, Amazon Neptune, Stardog, TigerGraph, RDFox</td>
-                  <td>Represent relationships, dependencies, policies, and enterprise meaning.</td>
-                </tr>
-                <tr>
-                  <td>AI Orchestration</td>
-                  <td>Agent frameworks, workflow engines, API gateways, automation</td>
-                  <td>LangGraph, Semantic Kernel, AutoGen, Temporal, Airflow, Camunda, MuleSoft</td>
-                  <td>Coordinate agents, tools, workflows, systems, and human checkpoints.</td>
-                </tr>
-                <tr>
-                  <td>Trust & Governance</td>
-                  <td>IAM, policy, audit, risk, monitoring, AI governance</td>
-                  <td>Okta, Azure AD, Open Policy Agent, ServiceNow GRC, Arize, LangSmith</td>
-                  <td>Control who can act, what can execute, and how decisions are audited.</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="resource-grid">
+            <article class="resource-card">
+              <h3>Documentation</h3>
+              <p>Framework overview, adoption guide, TOGAF comparison, articles, and visual assets.</p>
+              <a href="docs/framework-overview.md">Browse docs</a>
+            </article>
+            <article class="resource-card">
+              <h3>Architecture</h3>
+              <p>Reference architecture and framework stack diagrams for agentic AI enterprise systems.</p>
+              <a href="architecture/agentic-ai-reference-architecture.md">Browse architecture</a>
+            </article>
+            <article class="resource-card">
+              <h3>Contributing</h3>
+              <p>Guidance for contributing ideas, examples, improvements, and framework extensions.</p>
+              <a href="CONTRIBUTING.md">View contributing guide</a>
+            </article>
           </div>
         </div>
       </section>
 
-      <section id="comparison" class="section-shell">
+      <section class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Software Mapping</p>
+          <h2>Existing software categories mapped to V.E.N.K.A.T</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Layer</th>
+                <th>Software Categories</th>
+                <th>Representative Examples</th>
+                <th>Architecture Role</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Verified Data</td>
+                <td>Data quality, catalogs, lineage, lakehouse, MDM</td>
+                <td>Databricks, Snowflake, Collibra, Informatica, dbt, Great Expectations</td>
+                <td>Certify data as trusted, traceable, observable, and governed.</td>
+              </tr>
+              <tr>
+                <td>Event-Driven Architecture</td>
+                <td>Streaming, messaging, CDC, event mesh</td>
+                <td>Kafka, Confluent, Pulsar, Flink, Debezium, Solace</td>
+                <td>Move from periodic insight to real-time operational awareness.</td>
+              </tr>
+              <tr>
+                <td>Native Spatial Intelligence</td>
+                <td>GIS, geospatial analytics, routing, mobility intelligence</td>
+                <td>Esri ArcGIS, CARTO, Google Maps Platform, HERE, PostGIS, Kepler.gl</td>
+                <td>Add where, proximity, route, terrain, service area, and network context.</td>
+              </tr>
+              <tr>
+                <td>Knowledge Graphs</td>
+                <td>Graph databases, ontology management, semantic layers</td>
+                <td>Neo4j, Amazon Neptune, Stardog, TigerGraph, RDFox</td>
+                <td>Represent relationships, dependencies, policies, and enterprise meaning.</td>
+              </tr>
+              <tr>
+                <td>AI Orchestration</td>
+                <td>Agent frameworks, workflow engines, API gateways, automation</td>
+                <td>LangGraph, Semantic Kernel, AutoGen, Temporal, Airflow, Camunda, MuleSoft</td>
+                <td>Coordinate agents, tools, workflows, systems, and human checkpoints.</td>
+              </tr>
+              <tr>
+                <td>Trust & Governance</td>
+                <td>IAM, policy, audit, risk, monitoring, AI governance</td>
+                <td>Okta, Azure AD, Open Policy Agent, ServiceNow GRC, Arize, LangSmith</td>
+                <td>Control who can act, what can execute, and how decisions are audited.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section-shell">
         <div class="section-heading">
           <p class="section-kicker">Comparison Report</p>
           <h2>How V.E.N.K.A.T complements established frameworks</h2>
@@ -266,9 +312,9 @@
         </div>
       </section>
 
-      <section id="articles" class="section-shell">
+      <section id="publications" class="section-shell">
         <div class="section-heading">
-          <p class="section-kicker">Articles</p>
+          <p class="section-kicker">Publications</p>
           <h2>Companion reading</h2>
         </div>
         <div class="article-list">
@@ -278,10 +324,60 @@
         </div>
       </section>
 
-      <section id="contact" class="band contact-section">
+      <section id="presentations" class="band">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Presentations</p>
+            <h2>Presentation-ready materials for executive and architecture discussions</h2>
+          </div>
+          <div class="resource-grid">
+            <article class="resource-card">
+              <h3>Presentation Assets</h3>
+              <p>Use the framework visuals, architecture gap diagram, and enterprise layer chart in presentations and workshops.</p>
+              <a href="presentations/README.md">Open presentation notes</a>
+            </article>
+            <article class="resource-card">
+              <h3>Framework Visuals</h3>
+              <p>Reusable SVG graphics covering the six layers, enterprise-scale value flow, and the architecture gap.</p>
+              <a href="docs/articles-and-visuals.md">View visual assets</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="downloads" class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Downloads</p>
+          <h2>Downloadable framework resources</h2>
+        </div>
+        <div class="resource-grid">
+          <article class="resource-card">
+            <h3>Whitepaper PDF</h3>
+            <p>Download the logistics-focused V.E.N.K.A.T Framework whitepaper.</p>
+            <a href="whitepaper/VENKAT_Framework_Logistics_Use_Case.pdf" download>Download PDF</a>
+          </article>
+          <article class="resource-card">
+            <h3>Framework Diagram</h3>
+            <p>Download the main V.E.N.K.A.T Framework diagram as an SVG asset.</p>
+            <a href="docs/assets/venkat-framework-for-agentic-ai.svg" download>Download SVG</a>
+          </article>
+          <article class="resource-card">
+            <h3>Enterprise Layers Diagram</h3>
+            <p>Download the six-layer enterprise architecture visual as an SVG asset.</p>
+            <a href="docs/assets/venkat-enterprise-layers.svg" download>Download SVG</a>
+          </article>
+          <article class="resource-card">
+            <h3>Architecture Gap Diagram</h3>
+            <p>Download the old-world versus agentic AI architecture comparison visual.</p>
+            <a href="docs/assets/real-ai-gap-architecture.svg" download>Download SVG</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="community" class="band contact-section">
         <div class="section-shell contact-layout">
           <div>
-            <p class="section-kicker">Further Discussions</p>
+            <p class="section-kicker">Community</p>
             <h2>Discuss adoption, architecture reviews, and agentic AI roadmaps</h2>
             <p>Use the contact form to prepare a message, connect through the Medium profile, or leave feedback below to collect thoughts locally before a discussion.</p>
             <p><a class="profile-link" href="https://medium.com/@venkata.kondepati">Venkata Kondepati on Medium</a></p>
