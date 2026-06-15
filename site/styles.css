@@ -95,7 +95,7 @@ a {
   color: var(--white);
   background:
     linear-gradient(90deg, rgba(5, 12, 24, 0.92) 0%, rgba(5, 12, 24, 0.74) 45%, rgba(5, 12, 24, 0.34) 100%),
-    url("../docs/assets/venkat-enterprise-layers.svg") right center / contain no-repeat,
+    url("../docs/assets/venkat-enterprise-layers-clean.svg") right center / contain no-repeat,
     #06111f;
 }
 
@@ -356,8 +356,7 @@ tbody tr:last-child td {
   border-radius: var(--radius);
 }
 
-.contact-form,
-.comment-form {
+.contact-form {
   display: grid;
   gap: 14px;
   margin-top: 24px;
@@ -386,48 +385,19 @@ textarea {
   resize: vertical;
 }
 
-.comment-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 18px 0 12px;
-  color: var(--muted);
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.text-button {
-  padding: 0;
-  color: var(--red);
-  background: transparent;
-  border: 0;
-  font: inherit;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.comments {
-  display: grid;
-  gap: 12px;
-}
-
-.comment {
-  padding: 16px;
+.github-comments {
+  min-height: 180px;
+  margin-top: 22px;
+  padding: 12px;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: var(--radius);
 }
 
-.comment strong {
-  display: block;
-  margin-bottom: 4px;
-}
-
-.comment time {
-  display: block;
-  margin-bottom: 10px;
+.setup-note {
+  margin: 14px 0 0;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .site-footer {
@@ -439,6 +409,99 @@ textarea {
   color: #cbd6e7;
   background: var(--navy);
   font-weight: 700;
+}
+
+.author-hero {
+  color: var(--white);
+  background:
+    linear-gradient(90deg, rgba(5, 12, 24, 0.94), rgba(12, 40, 57, 0.86)),
+    #06111f;
+}
+
+.author-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+}
+
+.author-photo-wrap {
+  width: min(100%, 360px);
+}
+
+.author-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 32%;
+  border: 6px solid rgba(255, 255, 255, 0.86);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.author-intro h1 {
+  color: var(--white);
+}
+
+.author-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.bio-lead {
+  max-width: 920px;
+  margin-bottom: 28px;
+  color: var(--muted);
+  font-size: 20px;
+}
+
+.bio-lead a,
+.author-card a {
+  color: var(--blue);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.author-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.author-card {
+  padding: 24px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.author-card.wide {
+  grid-column: 1 / -1;
+}
+
+.author-card h2 {
+  margin-bottom: 16px;
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.author-card p {
+  color: var(--muted);
+}
+
+.author-card ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
 }
 
 @media (max-width: 900px) {
@@ -468,8 +531,15 @@ textarea {
   .layer-grid,
   .pattern-grid,
   .use-case-grid,
-  .resource-grid {
+  .resource-grid,
+  .author-layout,
+  .author-grid,
+  .project-list {
     grid-template-columns: 1fr;
+  }
+
+  .author-photo-wrap {
+    max-width: 320px;
   }
 }
 

@@ -51,6 +51,8 @@ See [Articles and Visuals](docs/articles-and-visuals.md) for companion Medium ar
 
 Open [index.html](index.html) to explore the static website.
 
+The Community section uses GitHub Issues-backed comments through [utterances](https://utteranc.es/). To enable public comments on GitHub Pages, install the utterances GitHub App for this repository and keep Issues enabled.
+
 Featured article:
 
 - [The V.E.N.K.A.T Framework: Building Enterprise Data Platforms for the Agentic AI Era](https://medium.com/@venkata.kondepati/the-v-e-n-k-a-t-framework-building-enterprise-data-platforms-for-the-agentic-ai-era-20352f548e40) by Venkata Kondepati, Medium.

@@ -2,7 +2,7 @@
 
 The V.E.N.K.A.T Framework defines six architectural layers required for enterprise-scale Agentic AI.
 
-![The six V.E.N.K.A.T architectural layers for Agentic AI at enterprise scale](assets/venkat-enterprise-layers.svg)
+![The six V.E.N.K.A.T architectural layers for Agentic AI at enterprise scale](assets/venkat-enterprise-layers-clean.svg)
 
 ## V - Verified Data
 

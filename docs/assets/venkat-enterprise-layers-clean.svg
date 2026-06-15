@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1560" viewBox="0 0 1800 1560" role="img" aria-labelledby="title desc">
+  <title id="title">The six V.E.N.K.A.T architectural layers for Agentic AI at enterprise scale</title>
+  <desc id="desc">A clean enterprise-scale view of the six V.E.N.K.A.T architectural layers and the agentic AI value flow.</desc>
+  <defs>
+    <style>
+      .pageTitle{font:800 74px Arial,sans-serif;fill:#f4f7fb;letter-spacing:18px}
+      .headline{font:800 32px Arial,sans-serif;fill:#f4f7fb}
+      .subhead{font:700 24px Arial,sans-serif;fill:#aab7c9}
+      .letter{font:900 76px Arial,sans-serif;fill:#fff}
+      .layerName{font:800 30px Arial,sans-serif;fill:#fff}
+      .body{font:500 22px Arial,sans-serif;fill:#dbe6f5}
+      .flowTitle{font:800 30px Arial,sans-serif;fill:#dbe6f5}
+      .flow{font:800 20px Arial,sans-serif;fill:#dbe6f5}
+    </style>
+  </defs>
+  <rect width="1800" height="1560" fill="#050c18"/>
+  <text x="80" y="105" class="pageTitle">V.E.N.K.A.T</text>
+  <text x="84" y="170" class="headline">THE 6 ARCHITECTURAL LAYERS FOR</text>
+  <text x="84" y="213" class="headline" fill="#f0d86a">AGENTIC AI AT ENTERPRISE SCALE</text>
+  <text x="84" y="258" class="subhead">Right data. Right context. Right reasoning. Right action. Right governance.</text>
+
+  <g transform="translate(70 320)">
+    <rect x="0" y="0" width="1120" height="132" rx="12" fill="#10241d" stroke="#4d9856"/>
+    <rect x="0" y="0" width="170" height="132" rx="12" fill="#287b2e"/>
+    <text x="85" y="86" text-anchor="middle" class="letter">V</text>
+    <text x="230" y="48" class="layerName" fill="#74df77">VERIFIED DATA</text>
+    <text x="230" y="84" class="body">Trusted, validated, observable data that builds trust from day one.</text>
+
+    <rect x="0" y="152" width="1120" height="132" rx="12" fill="#092d32" stroke="#24bec2"/>
+    <rect x="0" y="152" width="170" height="132" rx="12" fill="#0d8e92"/>
+    <text x="85" y="238" text-anchor="middle" class="letter">E</text>
+    <text x="230" y="200" class="layerName" fill="#40d3dc">EVENT-DRIVEN ARCHITECTURE</text>
+    <text x="230" y="236" class="body">Real-time signals that move the enterprise from batch to real-time action.</text>
+
+    <rect x="0" y="304" width="1120" height="132" rx="12" fill="#0c1c38" stroke="#318de2"/>
+    <rect x="0" y="304" width="170" height="132" rx="12" fill="#185fa6"/>
+    <text x="85" y="390" text-anchor="middle" class="letter">N</text>
+    <text x="230" y="352" class="layerName" fill="#5fb6ff">NATIVE SPATIAL INTELLIGENCE</text>
+    <text x="230" y="388" class="body">Location, proximity, movement, and constraints for context-aware decisions.</text>
+
+    <rect x="0" y="456" width="1120" height="132" rx="12" fill="#1d1633" stroke="#8f62d9"/>
+    <rect x="0" y="456" width="170" height="132" rx="12" fill="#5c32aa"/>
+    <text x="85" y="542" text-anchor="middle" class="letter">K</text>
+    <text x="230" y="504" class="layerName" fill="#a983ff">KNOWLEDGE GRAPHS</text>
+    <text x="230" y="540" class="body">Connected entities, events, policies, and dependencies for deeper understanding.</text>
+
+    <rect x="0" y="608" width="1120" height="132" rx="12" fill="#321a08" stroke="#e9852d"/>
+    <rect x="0" y="608" width="170" height="132" rx="12" fill="#a64d14"/>
+    <text x="85" y="694" text-anchor="middle" class="letter">A</text>
+    <text x="230" y="656" class="layerName" fill="#ff9f45">AI ORCHESTRATION</text>
+    <text x="230" y="692" class="body">Agents, tools, workflows, people, and systems coordinated into outcomes.</text>
+
+    <rect x="0" y="760" width="1120" height="132" rx="12" fill="#302909" stroke="#dfbd30"/>
+    <rect x="0" y="760" width="170" height="132" rx="12" fill="#9a7d0d"/>
+    <text x="85" y="846" text-anchor="middle" class="letter">T</text>
+    <text x="230" y="808" class="layerName" fill="#ffe26b">TRUST AND GOVERNANCE</text>
+    <text x="230" y="844" class="body">Security, fairness, compliance, accountability, and confidence at scale.</text>
+  </g>
+
+  <g transform="translate(1260 320)">
+    <rect x="0" y="0" width="470" height="990" rx="14" fill="#081221" stroke="#34445e"/>
+    <text x="235" y="62" text-anchor="middle" class="flowTitle">THE AGENTIC AI</text>
+    <text x="235" y="102" text-anchor="middle" class="flowTitle">VALUE FLOW</text>
+    <circle cx="235" cy="205" r="72" fill="#17341e" stroke="#4e9653" stroke-width="5"/>
+    <text x="235" y="214" text-anchor="middle" class="flow">SIGNAL</text>
+    <path d="M235 292v32" stroke="#8490a3" stroke-width="5"/>
+    <circle cx="235" cy="382" r="72" fill="#0b3033" stroke="#148f93" stroke-width="5"/>
+    <text x="235" y="391" text-anchor="middle" class="flow">CONTEXT</text>
+    <path d="M235 469v32" stroke="#8490a3" stroke-width="5"/>
+    <circle cx="235" cy="559" r="72" fill="#141d3a" stroke="#3b78bf" stroke-width="5"/>
+    <text x="235" y="568" text-anchor="middle" class="flow">REASONING</text>
+    <path d="M235 646v32" stroke="#8490a3" stroke-width="5"/>
+    <circle cx="235" cy="736" r="72" fill="#241541" stroke="#7c55bf" stroke-width="5"/>
+    <text x="235" y="745" text-anchor="middle" class="flow">ACTION</text>
+    <path d="M235 823v24" stroke="#8490a3" stroke-width="5"/>
+    <circle cx="235" cy="900" r="72" fill="#332909" stroke="#b09227" stroke-width="5"/>
+    <text x="235" y="909" text-anchor="middle" class="flow">FEEDBACK</text>
+  </g>
+
+  <rect x="70" y="1340" width="1660" height="86" rx="12" fill="#071020" stroke="#38455d"/>
+  <text x="900" y="1395" text-anchor="middle" class="headline">V.E.N.K.A.T enables the journey from DATA to AUTONOMY</text>
+  <text x="900" y="1510" text-anchor="middle" class="headline">Agentic AI is not just about intelligence. It is about architecture.</text>
+</svg>

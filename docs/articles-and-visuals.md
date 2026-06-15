@@ -12,7 +12,7 @@ This page collects companion Medium articles and visual assets for the V.E.N.K.A
 
 ![The V.E.N.K.A.T Framework for Agentic AI](assets/venkat-framework-for-agentic-ai.svg)
 
-![The six V.E.N.K.A.T architectural layers for Agentic AI at enterprise scale](assets/venkat-enterprise-layers.svg)
+![The six V.E.N.K.A.T architectural layers for Agentic AI at enterprise scale](assets/venkat-enterprise-layers-clean.svg)
 
 ![The real AI gap is architecture](assets/real-ai-gap-architecture.svg)
 
