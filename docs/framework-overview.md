@@ -1,47 +1,59 @@
-# Framework Overview
+# V.E.N.K.A.T Framework Overview
 
-The V.E.N.K.A.T Framework defines six architectural layers required for enterprise-scale Agentic AI.
+The V.E.N.K.A.T Framework defines a six-layer reference architecture for enterprise Agentic AI systems. It is designed for organizations that need AI to move beyond insight generation into governed, auditable, context-aware action.
 
 ![The six V.E.N.K.A.T architectural layers for Agentic AI at enterprise scale](assets/venkat-enterprise-layers-clean.svg)
 
-## V - Verified Data
+## Core Thesis
 
-AI systems need trusted, validated, observable, and governed data before they can make or recommend decisions.
+Agentic AI is an architecture problem before it is a model problem. Models can reason over prompts, but enterprises need the surrounding architecture that determines whether an AI system has trusted facts, timely signals, business context, executable tools, and policy boundaries.
 
-## E - Event-Driven Architecture
+## The Six Layers
 
-Agentic AI requires real-time signals instead of delayed batch updates.
+### V - Verified Data
 
-## N - Native Spatial Intelligence
+Verified Data establishes the trusted factual base for AI decisions. This includes data quality, lineage, observability, stewardship, contracts, privacy controls, and governance metadata.
 
-Location, proximity, movement, and geographic constraints are first-class enterprise context.
+### E - Event-Driven Architecture
 
-## K - Knowledge Graphs
+Event-Driven Architecture brings real-time operational awareness into the framework. Events allow AI systems to respond to change as it happens instead of waiting for batch dashboards or manual escalation.
 
-Knowledge graphs connect business entities, assets, customers, locations, events, policies, and dependencies.
+### N - Native Spatial Intelligence
 
-## A - AI Orchestration
+Native Spatial Intelligence treats location, proximity, movement, routing, boundaries, and networks as core reasoning context. This is essential for logistics, field operations, manufacturing, utilities, smart cities, risk, and asset-heavy industries.
 
-AI orchestration coordinates models, agents, workflows, APIs, systems, and human-in-the-loop controls.
+### K - Knowledge Graphs
 
-## T - Trust & Governance
+Knowledge Graphs connect enterprise meaning across people, products, assets, customers, policies, locations, events, and dependencies. They help agents reason over relationships rather than isolated records.
 
-Responsible autonomy requires auditability, security, policy enforcement, compliance, explainability, and human oversight.
+### A - AI Orchestration
 
-## Operating Model
+AI Orchestration coordinates agents, models, APIs, tools, workflows, enterprise systems, and human checkpoints. It turns reasoning into controlled execution.
 
-The framework enables:
+### T - Trust & Governance
+
+Trust & Governance provides the controls required for responsible autonomy: identity, access, policy enforcement, audit trails, approvals, explainability, risk thresholds, compliance, and rollback paths.
+
+## Value Flow
+
+The framework enables the operating loop required for agentic enterprise systems:
 
 **Signal -> Context -> Reasoning -> Action -> Feedback**
+
+1. Signals identify operational change.
+2. Context enriches signals with data, location, relationships, and policies.
+3. Reasoning evaluates options, risks, constraints, and objectives.
+4. Action executes through governed workflows, tools, APIs, or humans.
+5. Feedback captures outcomes, exceptions, overrides, and lessons learned.
 
 ## Architecture Gap
 
 ![The real AI gap is architecture](assets/real-ai-gap-architecture.svg)
 
-The framework reframes the enterprise AI gap as an architecture gap. Traditional platforms were optimized for dashboards and human interpretation; agentic systems need trusted signals, contextual understanding, governed reasoning, orchestrated action, and feedback loops.
+Traditional enterprise platforms were optimized for dashboards and human interpretation. Agentic systems need architectures that support trusted signals, contextual understanding, governed reasoning, orchestrated action, and continuous feedback.
 
-## Companion Article
+## Public Resources
 
-- [The V.E.N.K.A.T Framework: Building Enterprise Data Platforms for the Agentic AI Era](https://medium.com/@venkata.kondepati/the-v-e-n-k-a-t-framework-building-enterprise-data-platforms-for-the-agentic-ai-era-20352f548e40) by Venkata Kondepati, Medium.
-- [The V.E.N.K.A.T Framework: Building Enterprise Architectures for the Agentic AI Era](https://medium.com/@venkata.kondepati/the-v-e-n-k-a-t-framework-building-enterprise-architectures-for-the-agentic-ai-era-d70cdf9c9b0e) by Venkata Kondepati, Medium.
-- [Why Traditional Enterprise Frameworks Are Not Enough for the Agentic AI Era: Introducing the V.E.N.K.A.T Framework](https://medium.com/@venkata.kondepati/why-traditional-enterprise-frameworks-are-not-enough-for-the-agentic-ai-era-introducing-the-v-e-n-k-b5fecf48824e) by Venkata Kondepati, Medium.
+- Website: [https://venkatframework.com](https://venkatframework.com/)
+- Whitepaper: [https://venkatframework.com/whitepaper](https://venkatframework.com/whitepaper)
+- Repository: [https://github.com/vkondepati/venkat-framework-agentic-ai](https://github.com/vkondepati/venkat-framework-agentic-ai)

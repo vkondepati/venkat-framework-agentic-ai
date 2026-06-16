@@ -1,10 +1,34 @@
 cff-version: 1.2.0
-title: "The V.E.N.K.A.T Framework: Enterprise Architecture for Agentic AI"
-message: "If you use this framework, please cite it as below."
-type: software
+message: "If you use this framework or whitepaper, please cite it as below."
+type: report
+title: "The V.E.N.K.A.T Framework: Enterprise Architecture for the Agentic AI Era - A Reference Architecture for Trusted Autonomous Enterprise Systems"
+version: "1.0"
 authors:
   - family-names: Kondepati
     given-names: Venkata
+date-released: "2026-06-16"
 year: 2026
+publisher:
+  name: "Venkat Framework Initiative"
 repository-code: "https://github.com/vkondepati/venkat-framework-agentic-ai"
-abstract: "A six-layer enterprise architecture framework for Agentic AI: Verified Data, Event-Driven Architecture, Native Spatial Intelligence, Knowledge Graphs, AI Orchestration, and Trust & Governance."
+url: "https://venkatframework.com/whitepaper"
+abstract: "The V.E.N.K.A.T Framework is a six-layer enterprise architecture model for Agentic AI, spanning Verified Data, Event-Driven Architecture, Native Spatial Intelligence, Knowledge Graphs, AI Orchestration, and Trust & Governance."
+keywords:
+  - agentic-ai
+  - enterprise-architecture
+  - spatial-intelligence
+  - knowledge-graphs
+  - ai-orchestration
+  - governance
+preferred-citation:
+  type: report
+  title: "The V.E.N.K.A.T Framework: Enterprise Architecture for the Agentic AI Era - A Reference Architecture for Trusted Autonomous Enterprise Systems"
+  version: "1.0"
+  authors:
+    - family-names: Kondepati
+      given-names: Venkata
+  date-released: "2026-06-16"
+  year: 2026
+  publisher:
+    name: "Venkat Framework Initiative"
+  url: "https://venkatframework.com/whitepaper"

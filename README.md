@@ -1,41 +1,35 @@
 # The V.E.N.K.A.T Framework for Agentic AI
 
-**Enterprise Architecture for AI systems that can observe, understand, reason, act, and learn responsibly at scale.**
+**Enterprise Architecture for the Agentic AI Era**
+
+The V.E.N.K.A.T Framework is a reference architecture for trusted autonomous enterprise systems. It helps organizations move from AI experiments and dashboards toward governed systems that can observe signals, understand context, reason over relationships, orchestrate action, and learn from feedback.
+
+Website: [https://venkatframework.com](https://venkatframework.com/)
+
+Whitepaper: [https://venkatframework.com/whitepaper](https://venkatframework.com/whitepaper)
 
 ![The V.E.N.K.A.T Framework for Agentic AI](docs/assets/venkat-framework-for-agentic-ai.svg)
 
-The V.E.N.K.A.T Framework is a six-layer architectural model for the Agentic AI era:
+## Framework Overview
 
-- **V - Verified Data**
-- **E - Event-Driven Architecture**
-- **N - Native Spatial Intelligence**
-- **K - Knowledge Graphs**
-- **A - AI Orchestration**
-- **T - Trust & Governance**
+Agentic AI is an architecture problem before it is a model problem. Enterprise AI systems need more than prompts, models, and dashboards. They need trusted data, real-time signals, spatial context, connected knowledge, orchestrated execution, and governance controls that make autonomous action accountable.
 
-Together, these layers enable:
+The V.E.N.K.A.T Framework organizes those capabilities into six architectural layers:
+
+| Letter | Layer | Purpose |
+| --- | --- | --- |
+| V | Verified Data | Establish trusted, governed, observable, and validated enterprise data. |
+| E | Event-Driven Architecture | Capture real-time operational signals that AI systems can respond to. |
+| N | Native Spatial Intelligence | Treat location, movement, proximity, routing, and geographic constraints as first-class context. |
+| K | Knowledge Graphs | Connect entities, assets, policies, events, dependencies, customers, and risks. |
+| A | AI Orchestration | Coordinate agents, tools, workflows, APIs, systems, and human checkpoints. |
+| T | Trust & Governance | Enforce security, policy, explainability, auditability, compliance, and responsible control. |
+
+## Value Flow
+
+The framework enables the operating loop required for agentic enterprise systems:
 
 > **Signal -> Context -> Reasoning -> Action -> Feedback**
-
-## Why This Framework Matters
-
-Traditional enterprise frameworks were largely designed for systems that inform humans through reports, dashboards, and workflows. Agentic AI changes the architecture requirement because AI systems are increasingly expected to take action.
-
-The V.E.N.K.A.T Framework complements frameworks such as TOGAF, DAMA-DMBOK, Data Mesh, and cloud adoption frameworks by focusing specifically on the architectural foundation required for trusted AI-driven execution.
-
-## Repository Contents
-
-```text
-index.html      Static website for the framework
-site/           Website CSS and browser-local feedback behavior
-docs/           Framework overview, comparisons, adoption guide
-use-cases/      Logistics, manufacturing, energy grid, and digital twin examples
-architecture/   Reference architecture and Mermaid diagrams
-whitepaper/     PDF and long-form framework documents
-presentations/  Conference and executive presentation assets
-```
-
-## Core Value Flow
 
 ```mermaid
 flowchart LR
@@ -43,24 +37,49 @@ flowchart LR
     B --> C[Reasoning]
     C --> D[Action]
     D --> E[Feedback]
+    E --> A
 ```
 
-## Articles and Visuals
+## Whitepaper v1.0
 
-See [Articles and Visuals](docs/articles-and-visuals.md) for companion Medium articles and presentation-ready framework graphics.
+Release files are available in the repository under [whitepaper/](whitepaper/):
 
-Open [index.html](index.html) to explore the static website.
+- [VENKAT_Framework_Whitepaper_V1_Professional.pdf](whitepaper/VENKAT_Framework_Whitepaper_V1_Professional.pdf)
+- [VENKAT_Framework_Whitepaper_V1_Professional.docx](whitepaper/VENKAT_Framework_Whitepaper_V1_Professional.docx)
 
-The Community section uses GitHub Issues-backed comments through [utterances](https://utteranc.es/). To enable public comments on GitHub Pages, install the utterances GitHub App for this repository and keep Issues enabled.
+The public landing page is available at [https://venkatframework.com/whitepaper](https://venkatframework.com/whitepaper).
 
-Featured article:
+## Repository Contents
 
-- [The V.E.N.K.A.T Framework: Building Enterprise Data Platforms for the Agentic AI Era](https://medium.com/@venkata.kondepati/the-v-e-n-k-a-t-framework-building-enterprise-data-platforms-for-the-agentic-ai-era-20352f548e40) by Venkata Kondepati, Medium.
-- [The V.E.N.K.A.T Framework: Building Enterprise Architectures for the Agentic AI Era](https://medium.com/@venkata.kondepati/the-v-e-n-k-a-t-framework-building-enterprise-architectures-for-the-agentic-ai-era-d70cdf9c9b0e) by Venkata Kondepati, Medium.
-- [Why Traditional Enterprise Frameworks Are Not Enough for the Agentic AI Era: Introducing the V.E.N.K.A.T Framework](https://medium.com/@venkata.kondepati/why-traditional-enterprise-frameworks-are-not-enough-for-the-agentic-ai-era-introducing-the-v-e-n-k-b5fecf48824e) by Venkata Kondepati, Medium.
+```text
+index.html        Static website for the framework
+author.html       Author profile page
+site/             Website CSS, JavaScript, and site assets
+docs/             Framework overview, comparisons, adoption guidance, and visuals
+use-cases/        Applied logistics, manufacturing, energy, and digital twin scenarios
+architecture/     Reference architecture and architecture stack documents
+whitepaper/       Version 1.0 whitepaper PDF and DOCX files
+assets/           Public release asset staging area
+releases/         Release notes and release packaging notes
+presentations/    Conference and executive presentation materials
+```
 
-## Citation
+## Key Documents
 
-If you reference this framework, please cite:
+- [Framework Overview](docs/framework-overview.md)
+- [TOGAF Comparison](docs/togaf-comparison.md)
+- [DAMA-DMBOK Comparison](docs/dama-comparison.md)
+- [Data Mesh Comparison](docs/data-mesh-comparison.md)
+- [Adoption Maturity Model](docs/adoption-maturity-model.md)
+- [Agentic AI Reference Architecture](architecture/agentic-ai-reference-architecture.md)
+- [Logistics 50-Truck Scenario](use-cases/logistics-50-truck-scenario.md)
+- [Manufacturing Digital Twin](use-cases/manufacturing-digital-twin.md)
+- [Energy Grid Optimization](use-cases/energy-grid-optimization.md)
 
-**Kondepati, Venkata. The V.E.N.K.A.T Framework: Enterprise Architecture for Agentic AI. 2026.**
+## Suggested Citation
+
+Kondepati, V. (2026). *The V.E.N.K.A.T Framework(TM): Enterprise Architecture for the Agentic AI Era - A Reference Architecture for Trusted Autonomous Enterprise Systems, Version 1.0*. Venkat Framework Initiative. Available at [https://venkatframework.com/whitepaper](https://venkatframework.com/whitepaper)
+
+## License and Contributions
+
+See [LICENSE](LICENSE) and [CONTRIBUTING.md](CONTRIBUTING.md) for usage and contribution guidance.

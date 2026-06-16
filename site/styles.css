@@ -504,6 +504,113 @@ textarea {
   gap: 18px;
 }
 
+.whitepaper-hero {
+  color: var(--white);
+  background:
+    linear-gradient(90deg, rgba(5, 12, 24, 0.96), rgba(8, 27, 38, 0.86)),
+    url("../docs/assets/venkat-enterprise-layers-clean.svg") right center / contain no-repeat,
+    #06111f;
+}
+
+.whitepaper-hero-layout,
+.whitepaper-two-column {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+}
+
+.whitepaper-hero-copy h1 {
+  color: var(--white);
+  font-size: clamp(42px, 6.4vw, 78px);
+}
+
+.whitepaper-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 680px;
+  margin: 30px 0 0;
+}
+
+.whitepaper-meta div {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius);
+}
+
+.whitepaper-meta dt {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.whitepaper-meta dd {
+  margin: 5px 0 0;
+  color: #eef5fb;
+  font-weight: 800;
+}
+
+.whitepaper-cover,
+.citation-card,
+.review-panel {
+  padding: clamp(24px, 4vw, 36px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.whitepaper-cover {
+  color: var(--ink);
+}
+
+.whitepaper-cover .brand-mark {
+  margin-bottom: 24px;
+}
+
+.whitepaper-cover p:last-child,
+.whitepaper-prose p,
+.review-panel p {
+  color: var(--muted);
+}
+
+.whitepaper-prose p:first-child {
+  margin-top: 0;
+}
+
+.citation-card {
+  margin: 0;
+  box-shadow: none;
+}
+
+.citation-card blockquote {
+  margin: 0;
+  color: var(--ink);
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.citation-card figcaption {
+  margin-top: 16px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.review-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.review-panel h2 {
+  font-size: clamp(30px, 4vw, 46px);
+}
+
 @media (max-width: 900px) {
   .site-header {
     align-items: flex-start;
@@ -528,6 +635,8 @@ textarea {
   .contact-layout,
   .comparison-layout,
   .concept-layout,
+  .whitepaper-hero-layout,
+  .whitepaper-two-column,
   .layer-grid,
   .pattern-grid,
   .use-case-grid,
@@ -536,6 +645,18 @@ textarea {
   .author-grid,
   .project-list {
     grid-template-columns: 1fr;
+  }
+
+  .whitepaper-hero {
+    background:
+      linear-gradient(rgba(5, 12, 24, 0.92), rgba(5, 12, 24, 0.86)),
+      url("../docs/assets/venkat-framework-for-agentic-ai.svg") center bottom / 92% auto no-repeat,
+      #06111f;
+  }
+
+  .review-panel {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .author-photo-wrap {
@@ -556,5 +677,9 @@ textarea {
   .nav {
     gap: 8px 12px;
     font-size: 13px;
+  }
+
+  .whitepaper-meta {
+    grid-template-columns: 1fr;
   }
 }
