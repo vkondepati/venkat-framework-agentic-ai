@@ -411,6 +411,13 @@ textarea {
   font-weight: 700;
 }
 
+.trademark-notice {
+  flex-basis: 100%;
+  color: #9fb0c8;
+  font-size: 13px;
+  font-weight: 400;
+}
+
 .author-hero {
   color: var(--white);
   background:
