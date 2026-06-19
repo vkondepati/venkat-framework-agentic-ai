@@ -10,6 +10,10 @@ Whitepaper: [https://venkatframework.com/whitepaper](https://venkatframework.com
 
 Practitioner & Certification Suite: [https://venkatframework.com/practitioner/](https://venkatframework.com/practitioner/)
 
+Study Guide & Skills Path: [https://venkatframework.com/practitioner/study-guide.html](https://venkatframework.com/practitioner/study-guide.html)
+
+Verified Data Guide: [https://venkatframework.com/practitioner/verified-data-guide.html](https://venkatframework.com/practitioner/verified-data-guide.html)
+
 ![The V.E.N.K.A.T Framework for Agentic AI](docs/assets/venkat-framework-for-agentic-ai.svg)
 
 ## Framework Overview
