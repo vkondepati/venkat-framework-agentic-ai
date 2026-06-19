@@ -8,6 +8,8 @@ Website: [https://venkatframework.com](https://venkatframework.com/)
 
 Whitepaper: [https://venkatframework.com/whitepaper](https://venkatframework.com/whitepaper)
 
+Practitioner & Certification Suite: [https://venkatframework.com/practitioner/](https://venkatframework.com/practitioner/)
+
 ![The V.E.N.K.A.T Framework for Agentic AI](docs/assets/venkat-framework-for-agentic-ai.svg)
 
 ## Framework Overview
@@ -55,6 +57,7 @@ The public landing page is available at [https://venkatframework.com/whitepaper]
 index.html        Static website for the framework
 author.html       Author profile page
 site/             Website CSS, JavaScript, and site assets
+practitioner/     Adoption handbook, control catalog, templates, and certification pilot
 docs/             Framework overview, comparisons, adoption guidance, and visuals
 use-cases/        Applied logistics, manufacturing, energy, and digital twin scenarios
 architecture/     Reference architecture and architecture stack documents

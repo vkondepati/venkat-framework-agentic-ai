@@ -690,3 +690,43 @@ textarea {
     grid-template-columns: 1fr;
   }
 }
+
+/* Practitioner and certification suite */
+.nav a[aria-current="page"] { color: var(--green); }
+.suite-hero, .suite-page-hero { color: var(--white); background: linear-gradient(105deg, rgba(5,12,24,.97), rgba(9,45,54,.88)), url("../docs/assets/venkat-enterprise-layers-clean.svg") right center / contain no-repeat, var(--navy); }
+.suite-page-hero .section-shell { padding-block: clamp(70px,9vw,120px); }
+.suite-page-hero h1, .suite-hero h1 { color: var(--white); font-size: clamp(42px,6.4vw,78px); }
+.suite-hero-layout { display:grid; grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr); gap:clamp(28px,5vw,72px); align-items:center; }
+.suite-summary, .decision-statement { padding:clamp(24px,4vw,36px); color:var(--ink); background:var(--white); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+.suite-summary p:not(.section-kicker), .section-lead, .lifecycle-grid p, .certification-flow p, .test-grid p, .field-grid span, .template-card p, .template-card li { color:var(--muted); }
+.suite-summary a, .section-lead a, .playbook a, .template-card a, .callout a, .band a:not(.button) { color:var(--blue); font-weight:800; }
+.score-callout { display:block; color:var(--green); font-size:clamp(60px,9vw,96px); line-height:1; }
+.subnav { position:sticky; top:63px; z-index:15; display:flex; flex-wrap:wrap; justify-content:center; gap:8px 22px; padding:12px 20px; color:var(--muted); background:rgba(247,248,251,.96); border-bottom:1px solid var(--line); backdrop-filter:blur(14px); font-size:14px; font-weight:800; }
+.subnav a { text-decoration:none; }
+.section-lead { font-size:19px; }
+.numbered-list, .report-outline { display:grid; gap:12px; margin:0; padding-left:24px; }
+.lifecycle-grid, .certification-flow, .test-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lifecycle-grid article, .certification-flow article, .test-grid article { padding:22px; background:#fbfcfe; border:1px solid var(--line); border-radius:var(--radius); }
+.lifecycle-grid article>span, .certification-flow article>span { display:inline-grid; place-items:center; width:36px; height:36px; margin-bottom:12px; color:var(--white); background:var(--green); border-radius:50%; font-weight:900; }
+.layer-playbooks, .control-sections, .template-stack { display:grid; gap:28px; }
+.playbook, .template-card { padding:clamp(22px,4vw,34px); background:var(--white); border:1px solid var(--line); border-radius:var(--radius); box-shadow:0 8px 28px rgba(22,32,47,.08); scroll-margin-top:120px; }
+.playbook>header, .control-heading { display:flex; gap:16px; align-items:center; margin-bottom:22px; }
+.playbook header>span, .control-heading>span { display:inline-grid; flex:0 0 auto; place-items:center; width:52px; height:52px; color:var(--white); border-radius:50%; font-size:27px; font-weight:900; }
+.playbook.verified header>span, .control-heading.verified>span { background:var(--green); } .playbook.event header>span, .control-heading.event>span { background:var(--teal); } .playbook.spatial header>span, .control-heading.spatial>span { background:var(--blue); } .playbook.knowledge header>span, .control-heading.knowledge>span { background:var(--violet); } .playbook.orchestration header>span, .control-heading.orchestration>span { background:var(--orange); } .playbook.trust header>span, .control-heading.trust>span { background:var(--gold); }
+.playbook header p, .control-heading p { margin:0; color:var(--muted); }
+.playbook-grid, .maturity-grid, .decision-grid, .field-grid, .template-columns { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.playbook-grid>div { padding-top:16px; border-top:3px solid var(--line); } .playbook-grid h4 { margin:0 0 10px; font-size:17px; }
+.playbook-grid ul, .playbook-grid ol, .maturity-grid ul { margin:0; padding-left:20px; } .playbook-grid li+li, .maturity-grid li+li { margin-top:8px; }
+.maturity-grid article, .decision-grid>div, .field-grid>div { padding:24px; background:var(--white); border:1px solid var(--line); border-radius:var(--radius); }
+.maturity-level { display:grid; place-items:center; width:42px; height:42px; margin:0 0 14px; color:var(--white); background:var(--green); border-radius:50%; font-weight:900; }
+.callout { margin-top:24px; padding:18px 20px; background:#edf7f1; border:1px solid #b9dac6; border-left:5px solid var(--green); border-radius:var(--radius); }
+.certification-flow { grid-template-columns:repeat(3,minmax(0,1fr)); margin-bottom:24px; } .decision-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.section-link-row { display:flex; flex-wrap:wrap; gap:14px; margin-top:26px; } .field-grid>div { display:grid; gap:8px; }
+.control-group { scroll-margin-top:120px; } .control-table td:first-child { color:var(--green); font-weight:900; white-space:nowrap; } .control-table td:nth-child(3) { min-width:120px; }
+.template-card header { margin-bottom:22px; } .template-card h2 { font-size:clamp(28px,3.5vw,42px); } .template-columns { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.field-strip { display:flex; flex-wrap:wrap; gap:9px; } .field-strip span { padding:8px 11px; background:#f0f3f7; border:1px solid var(--line); border-radius:5px; font-size:14px; font-weight:700; }
+.test-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .status-pass { color:var(--green); } .status-fail { color:var(--red); }
+.score-panel { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-bottom:24px; } .score-panel>div { display:grid; gap:5px; padding:20px; background:var(--navy); border-radius:var(--radius); color:#cbd6e7; } .score-panel strong { color:var(--white); font-size:28px; } .score-panel small { color:#9fb0c8; }
+.decision-statement { margin-bottom:24px; box-shadow:none; }
+@media (max-width:900px) { .suite-hero-layout, .playbook-grid, .maturity-grid, .certification-flow, .field-grid, .test-grid, .score-panel { grid-template-columns:1fr; } .subnav { position:static; justify-content:flex-start; } }
+@media (max-width:540px) { .template-columns, .decision-grid, .lifecycle-grid { grid-template-columns:1fr; } }

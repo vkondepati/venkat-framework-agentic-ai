@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Control Catalog | V.E.N.K.A.T Practitioner Suite</title>
+    <meta name="description" content="V.E.N.K.A.T control catalog with assessment, ownership, evidence, scoring, finding, and remediation fields.">
+    <link rel="stylesheet" href="../site/styles.css">
+  </head>
+  <body>
+    <header class="site-header"><a class="brand" href="../index.html#home"><span class="brand-mark">V</span><span>V.E.N.K.A.T Framework</span></a><nav class="nav" aria-label="Primary navigation"><a href="../index.html#home">Home</a><a href="./">Practitioner Suite</a><a aria-current="page" href="controls.html">Controls</a><a href="templates.html">Templates</a><a href="logistics-pilot.html">Logistics Pilot</a><a href="../whitepaper/">Whitepaper</a></nav></header>
+    <main>
+      <section class="suite-page-hero"><div class="section-shell"><p class="eyebrow">Assessment instrument</p><h1>Control catalog</h1><p class="hero-text">A minimum control baseline for a bounded V.E.N.K.A.T implementation. Extend it for sector, jurisdiction, and system risk; preserve IDs and applicability decisions for traceability.</p></div></section>
+      <nav class="subnav" aria-label="Control layers"><a href="#fields">Fields</a><a href="#v-controls">V</a><a href="#e-controls">E</a><a href="#n-controls">N</a><a href="#k-controls">K</a><a href="#a-controls">A</a><a href="#t-controls">T</a><a href="#scoring">Scoring</a></nav>
+
+      <section id="fields" class="section-shell">
+        <div class="section-heading"><p class="section-kicker">Tracking schema</p><h2>Fields for every assessment record</h2></div>
+        <div class="field-grid">
+          <div><strong>Identity</strong><span>Assessment ID, control ID/version, system/scope, layer, requirement, objective, criticality, mandatory-gate flag</span></div>
+          <div><strong>Accountability</strong><span>Control owner, operator, tester, approver, business owner, assessor, segregation-of-duties check</span></div>
+          <div><strong>Applicability</strong><span>Applicable/not applicable, rationale, tailoring, inherited/shared control, provider, related obligation and risk IDs</span></div>
+          <div><strong>Testing</strong><span>Design result, operating result, method, population, sample, period, test date, next test, score, confidence</span></div>
+          <div><strong>Evidence</strong><span>Evidence IDs/links, source, owner, collection time, period covered, integrity/hash, retention, sensitivity</span></div>
+          <div><strong>Action</strong><span>Finding ID/severity, root cause, remediation owner/due date, roadmap item, exception ID/expiry, residual risk, status</span></div>
+        </div>
+        <p class="callout"><strong>Record integrity:</strong> evidence must be attributable, relevant to the assessment period, protected from unauthorized change, and reproducible by an independent assessor. A policy alone proves design—not operation.</p>
+      </section>
+
+      <section class="band"><div class="section-shell control-sections">
+        <div id="v-controls" class="control-group"><div class="control-heading verified"><span>V</span><div><h2>Verified Data</h2><p>Trusted inputs, lineage, quality, and lawful use.</p></div></div><div class="table-wrap"><table class="control-table"><thead><tr><th>ID</th><th>Control requirement</th><th>Criticality</th><th>Minimum evidence</th><th>Certification test</th></tr></thead><tbody>
+          <tr><td>V-01</td><td>Decision-critical data has an accountable owner, classification, approved contract, and permitted-use statement.</td><td><strong>Critical · Gate</strong></td><td>Inventory, contracts, approvals, classifications</td><td>Sample decisions; trace all critical inputs to current contracts and owners.</td></tr>
+          <tr><td>V-02</td><td>Automated quality and freshness checks block, quarantine, or safely degrade on threshold breach.</td><td><strong>Critical · Gate</strong></td><td>Rules, SLOs, run results, alerts, disposition logs</td><td>Inject invalid and stale records; observe enforced response.</td></tr>
+          <tr><td>V-03</td><td>End-to-end lineage and provenance connect source, transformations, model context, decision, and retained outcome.</td><td>High</td><td>Lineage graph, trace samples, change history</td><td>Reconstruct sampled outcomes without implementer assistance.</td></tr>
+          <tr><td>V-04</td><td>Access, minimization, retention, deletion, and bias/privacy monitoring are risk-based and periodically reviewed.</td><td>High</td><td>Access reviews, DPIA, retention runs, bias results</td><td>Test unauthorized access and sample retention/deletion execution.</td></tr>
+        </tbody></table></div></div>
+
+        <div id="e-controls" class="control-group"><div class="control-heading event"><span>E</span><div><h2>Event-Driven Architecture</h2><p>Reliable, attributable, recoverable operational signals.</p></div></div><div class="table-wrap"><table class="control-table"><thead><tr><th>ID</th><th>Control requirement</th><th>Criticality</th><th>Minimum evidence</th><th>Certification test</th></tr></thead><tbody>
+          <tr><td>E-01</td><td>Critical events have owned, versioned schemas, semantics, keys, compatibility policy, and producer/consumer inventory.</td><td><strong>Critical · Gate</strong></td><td>AsyncAPI/schema records, compatibility results, ownership</td><td>Attempt incompatible change and confirm prevention or managed migration.</td></tr>
+          <tr><td>E-02</td><td>Consumers safely handle duplicate, late, missing, malformed, and out-of-order events.</td><td><strong>Critical · Gate</strong></td><td>Idempotency design, test runs, DLQ records</td><td>Inject each failure mode and verify no unsafe duplicate action.</td></tr>
+          <tr><td>E-03</td><td>Critical event paths have latency, availability, lag, loss, and recovery SLOs with actionable monitoring.</td><td>High</td><td>Dashboards, alerts, incidents, SLO reviews</td><td>Trace event latency end to end and observe threshold alert.</td></tr>
+          <tr><td>E-04</td><td>Retention, replay, recovery, and dead-letter operations are authorized, auditable, and exercised.</td><td>High</td><td>Runbooks, access logs, recovery exercise</td><td>Perform controlled replay and reconcile resulting actions.</td></tr>
+        </tbody></table></div></div>
+
+        <div id="n-controls" class="control-group"><div class="control-heading spatial"><span>N</span><div><h2>Native Spatial Intelligence</h2><p>Valid location, topology, routing, and jurisdictional context.</p></div></div><div class="table-wrap"><table class="control-table"><thead><tr><th>ID</th><th>Control requirement</th><th>Criticality</th><th>Minimum evidence</th><th>Certification test</th></tr></thead><tbody>
+          <tr><td>N-01</td><td>Spatial data records authoritative source, timestamp, CRS, units, precision, uncertainty, and permitted use.</td><td><strong>Critical · Gate</strong></td><td>Metadata, contracts, catalog and sample payloads</td><td>Sample spatial decisions and verify complete, correct metadata.</td></tr>
+          <tr><td>N-02</td><td>Routes and location actions enforce physical, safety, temporal, legal, and jurisdictional constraints.</td><td><strong>Critical · Gate</strong></td><td>Constraint registry, route tests, approvals</td><td>Attempt restricted-zone, over-limit, and infeasible routes.</td></tr>
+          <tr><td>N-03</td><td>Topology, geofence, boundary, CRS transformation, and edge-case accuracy are validated before release.</td><td>High</td><td>Benchmark suite, defect log, release results</td><td>Run known boundary/CRS cases and compare expected outputs.</td></tr>
+          <tr><td>N-04</td><td>Location privacy and degraded-position behavior are risk-based, transparent, and tested.</td><td>High</td><td>Privacy assessment, masking tests, fallback runbook</td><td>Lower confidence and verify safe fallback; test unauthorized precision.</td></tr>
+        </tbody></table></div></div>
+
+        <div id="k-controls" class="control-group"><div class="control-heading knowledge"><span>K</span><div><h2>Knowledge Graphs</h2><p>Governed semantics, claims, relationships, and inference.</p></div></div><div class="table-wrap"><table class="control-table"><thead><tr><th>ID</th><th>Control requirement</th><th>Criticality</th><th>Minimum evidence</th><th>Certification test</th></tr></thead><tbody>
+          <tr><td>K-01</td><td>Ontology/schema, competency questions, identifiers, change authority, and versioning are approved and owned.</td><td><strong>Critical · Gate</strong></td><td>Ontology, decision log, ownership, versions</td><td>Trace a schema change through review, migration, and consumers.</td></tr>
+          <tr><td>K-02</td><td>Material claims and relationships retain source, time, confidence, and inference status.</td><td><strong>Critical · Gate</strong></td><td>Provenance model, query samples, validation reports</td><td>Trace sampled asserted and inferred claims to sources.</td></tr>
+          <tr><td>K-03</td><td>Graph constraints, identity resolution, conflicts, temporal validity, and inference rules are continuously tested.</td><td>High</td><td>SHACL/rule tests, conflict queue, accuracy sample</td><td>Insert conflicting identities/claims and verify detection.</td></tr>
+          <tr><td>K-04</td><td>Authorization applies to nodes, edges, attributes, queries, exports, and derived sensitive knowledge.</td><td>High</td><td>Policy, entitlement review, query audit</td><td>Attempt cross-boundary query and inference; confirm denial and log.</td></tr>
+        </tbody></table></div></div>
+
+        <div id="a-controls" class="control-group"><div class="control-heading orchestration"><span>A</span><div><h2>AI Orchestration</h2><p>Bounded, observable, interruptible agent behavior.</p></div></div><div class="table-wrap"><table class="control-table"><thead><tr><th>ID</th><th>Control requirement</th><th>Criticality</th><th>Minimum evidence</th><th>Certification test</th></tr></thead><tbody>
+          <tr><td>A-01</td><td>Every agent, model, prompt, tool, owner, version, intended use, limit, and dependency is registered before use.</td><td>High</td><td>Registry, approvals, deployment reconciliation</td><td>Reconcile runtime inventory to approved registry.</td></tr>
+          <tr><td>A-02</td><td>Tool use is least-privileged, allow-listed, policy-checked, scoped per task, and denied by default.</td><td><strong>Critical · Gate</strong></td><td>Tool policy, IAM, authorization logs, negative tests</td><td>Attempt prohibited, excessive, and cross-tenant tool calls.</td></tr>
+          <tr><td>A-03</td><td>Consequential actions require risk-based human approval or an explicitly approved autonomous boundary.</td><td><strong>Critical · Gate</strong></td><td>Decision matrix, approval logs, autonomy authorization</td><td>Execute threshold boundary cases and verify routing/approval.</td></tr>
+          <tr><td>A-04</td><td>Emergency stop, timeout, rollback/compensation, safe state, and human escalation operate end to end.</td><td><strong>Critical · Gate</strong></td><td>Runbooks, drills, rollback records, escalation SLAs</td><td>Trigger kill switch and failed tool; verify containment and recovery.</td></tr>
+          <tr><td>A-05</td><td>Pre-release and ongoing evaluations cover quality, security, prompt injection, excessive agency, drift, cost, and harmful outcomes.</td><td>High</td><td>Eval suite/results, red-team findings, release gate</td><td>Rerun representative/adversarial tests and reconcile decision.</td></tr>
+        </tbody></table></div></div>
+
+        <div id="t-controls" class="control-group"><div class="control-heading trust"><span>T</span><div><h2>Trust &amp; Governance</h2><p>Accountability, assurance, security, recourse, and resilience.</p></div></div><div class="table-wrap"><table class="control-table"><thead><tr><th>ID</th><th>Control requirement</th><th>Criticality</th><th>Minimum evidence</th><th>Certification test</th></tr></thead><tbody>
+          <tr><td>T-01</td><td>Named business and technical owners accept purpose, risk tier, decision rights, autonomy, and residual risk.</td><td><strong>Critical · Gate</strong></td><td>RACI, charter, risk acceptance, governance minutes</td><td>Interview owners; reconcile authority to signed records.</td></tr>
+          <tr><td>T-02</td><td>Security, privacy, safety, human-rights, legal, and supplier impact assessments precede deployment and material change.</td><td><strong>Critical · Gate</strong></td><td>Assessments, threat model, legal/supplier reviews</td><td>Trace identified harms to controls, tests, and accepted residuals.</td></tr>
+          <tr><td>T-03</td><td>Immutable-enough logs reconstruct identity, inputs, context, policy, reasoning record, approval, action, and outcome.</td><td><strong>Critical · Gate</strong></td><td>Audit schema, retention/integrity controls, trace samples</td><td>Reconstruct selected consequential actions independently.</td></tr>
+          <tr><td>T-04</td><td>Affected users receive appropriate notice, explanation, human review, correction, and recourse within defined SLAs.</td><td>High</td><td>Notices, explanation samples, appeal records, SLA dashboard</td><td>Submit a challenge and trace it through closure.</td></tr>
+          <tr><td>T-05</td><td>AI incidents are detected, contained, reported, learned from, and tested with business continuity and recovery.</td><td><strong>Critical · Gate</strong></td><td>Plan, drills, incidents, after-action improvements</td><td>Run a severe scenario and verify notification, stop, and recovery.</td></tr>
+          <tr><td>T-06</td><td>Exceptions are approved by authorized risk owners, narrowly scoped, compensated, monitored, and automatically expire.</td><td>High</td><td>Exception register, approvals, expiry alerts, closure evidence</td><td>Sample open/closed exceptions and test expired access/control.</td></tr>
+        </tbody></table></div></div>
+      </div></section>
+
+      <section id="scoring" class="section-shell"><div class="section-heading"><p class="section-kicker">Assessment rule</p><h2>Score design and operation separately</h2></div><div class="decision-grid"><div><h3>0 · Absent</h3><p>No credible design, or the requirement is contradicted in practice.</p></div><div><h3>1 · Designed</h3><p>Approved design exists, but operation is unproven or too recent.</p></div><div><h3>2 · Partial</h3><p>Operating evidence exists but has gaps, exceptions, limited coverage, or inconsistent results.</p></div><div><h3>3 · Effective</h3><p>Designed appropriately and operating consistently for the assessment period with reproducible evidence.</p></div></div><p class="callout"><strong>Weights:</strong> Critical = 3, High = 2, Standard = 1. Pass requires ≥85% overall and per critical layer; every “Gate” row must score 3. See the <a href="./#certification">full decision workflow</a> and <a href="templates.html#assessment-record">assessment record template</a>.</p></section>
+    </main>
+    <footer class="site-footer"><span>V.E.N.K.A.T Framework</span><span>Control Catalog · Version 1.0</span><span class="trademark-notice">Tailoring decisions and control exclusions require documented rationale and independent assessor approval.</span></footer>
+  </body>
+</html>
