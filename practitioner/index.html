@@ -90,7 +90,7 @@
             <div class="playbook-grid">
               <div><h4>Activities &amp; standards</h4><ul><li>Define business events, producers, consumers, schemas, keys, ordering, replay, and ownership.</li><li>Engineer idempotency, dead-letter handling, back-pressure, observability, recovery, and version compatibility.</li><li>Use CloudEvents, AsyncAPI, OpenTelemetry, schema registries, and platform security standards.</li></ul></div>
               <div><h4>Checklist &amp; evidence</h4><ul><li>Critical streams have SLOs, runbooks, retention, replay authorization, and consumer impact analysis.</li><li>Evidence: schemas, compatibility checks, trace views, recovery exercises, lag and DLQ reports.</li><li>Metrics: end-to-end latency, delivery success, duplicate rate, consumer lag, recovery time.</li></ul></div>
-              <div><h4>Certification tests</h4><ol><li>Trace a production-like event from source through action and audit record.</li><li>Test duplicate, late, malformed, and out-of-order events.</li><li>Demonstrate outage recovery and controlled replay without duplicate harm.</li></ol><p><a href="controls.html#e-controls">Controls E-01–E-04</a></p></div>
+              <div><h4>Certification tests</h4><ol><li>Trace a production-like event from source through action and audit record.</li><li>Test duplicate, late, malformed, and out-of-order events.</li><li>Demonstrate outage recovery and controlled replay without duplicate harm.</li></ol><p><a href="event-driven-guide.html">Event-Driven Architecture technology guide</a> · <a href="controls.html#e-controls">Controls E-01–E-04</a></p></div>
             </div>
           </article>
 
@@ -99,7 +99,7 @@
             <div class="playbook-grid">
               <div><h4>Activities &amp; standards</h4><ul><li>Model coordinate reference systems, precision, time, topology, networks, geofences, and jurisdiction.</li><li>Validate routing constraints, location privacy, spatial joins, uncertainty, and degraded positioning.</li><li>Use OGC/ISO geospatial standards, GeoJSON, WGS 84/EPSG definitions, and domain routing rules.</li></ul></div>
               <div><h4>Checklist &amp; evidence</h4><ul><li>Every spatial decision records source, timestamp, CRS, precision, and relevant constraints.</li><li>Evidence: topology tests, route benchmarks, geofence cases, map/service metadata, privacy review.</li><li>Metrics: positional error, route feasibility, geofence false alerts, spatial-service availability.</li></ul></div>
-              <div><h4>Certification tests</h4><ol><li>Run boundary, CRS, stale-position, and restricted-zone scenarios.</li><li>Compare sampled routes to authoritative constraints and human review.</li><li>Verify privacy transformations and fallback when location confidence is low.</li></ol><p><a href="controls.html#n-controls">Controls N-01–N-04</a></p></div>
+              <div><h4>Certification tests</h4><ol><li>Run boundary, CRS, stale-position, and restricted-zone scenarios.</li><li>Compare sampled routes to authoritative constraints and human review.</li><li>Verify privacy transformations and fallback when location confidence is low.</li></ol><p><a href="spatial-intelligence-guide.html">Native Spatial Intelligence technology guide</a> · <a href="controls.html#n-controls">Controls N-01–N-04</a></p></div>
             </div>
           </article>
 
@@ -108,7 +108,7 @@
             <div class="playbook-grid">
               <div><h4>Activities &amp; standards</h4><ul><li>Define competency questions, ontology ownership, identity resolution, provenance, and temporal semantics.</li><li>Validate graph constraints, inference rules, source confidence, access boundaries, and change impact.</li><li>Use RDF, OWL, SHACL, SPARQL, PROV-O, SKOS, or governed property-graph equivalents.</li></ul></div>
               <div><h4>Checklist &amp; evidence</h4><ul><li>Claims are source-linked; inferred facts are distinguishable; sensitive subgraphs are protected.</li><li>Evidence: ontology versions, SHACL reports, query tests, provenance samples, access reviews.</li><li>Metrics: constraint conformance, entity-resolution precision, provenance coverage, stale-claim rate.</li></ul></div>
-              <div><h4>Certification tests</h4><ol><li>Answer representative competency questions and trace claims to evidence.</li><li>Insert conflicting and unauthorized relationships; verify detection and denial.</li><li>Test ontology migration and time-aware reasoning on historical facts.</li></ol><p><a href="controls.html#k-controls">Controls K-01–K-04</a></p></div>
+              <div><h4>Certification tests</h4><ol><li>Answer representative competency questions and trace claims to evidence.</li><li>Insert conflicting and unauthorized relationships; verify detection and denial.</li><li>Test ontology migration and time-aware reasoning on historical facts.</li></ol><p><a href="knowledge-graphs-guide.html">Knowledge Graphs technology guide</a> · <a href="controls.html#k-controls">Controls K-01–K-04</a></p></div>
             </div>
           </article>
 
@@ -117,7 +117,7 @@
             <div class="playbook-grid">
               <div><h4>Activities &amp; standards</h4><ul><li>Register agents, models, prompts, tools, permissions, budgets, owners, and intended uses.</li><li>Enforce least privilege, approvals, deterministic policy checks, timeouts, rollback, and human escalation.</li><li>Evaluate quality, adversarial behavior, model/tool change, and failure cascades using NIST AI RMF and ISO/IEC 42001 practices.</li></ul></div>
               <div><h4>Checklist &amp; evidence</h4><ul><li>Each consequential action has identity, inputs, rationale, policy result, tool call, output, and outcome.</li><li>Evidence: registry, eval results, traces, approval logs, red-team reports, rollback drills.</li><li>Metrics: task success, unsafe-action blocks, override rate, rollback success, cost/latency, escalation SLA.</li></ul></div>
-              <div><h4>Certification tests</h4><ol><li>Attempt prohibited and out-of-scope tool calls; verify deny-by-default.</li><li>Test prompt injection, excessive agency, tool failure, budget breach, and emergency stop.</li><li>Replay sampled actions from immutable logs and verify accountable approval.</li></ol><p><a href="controls.html#a-controls">Controls A-01–A-05</a></p></div>
+              <div><h4>Certification tests</h4><ol><li>Attempt prohibited and out-of-scope tool calls; verify deny-by-default.</li><li>Test prompt injection, excessive agency, tool failure, budget breach, and emergency stop.</li><li>Replay sampled actions from immutable logs and verify accountable approval.</li></ol><p><a href="ai-orchestration-guide.html">AI Orchestration technology guide</a> · <a href="controls.html#a-controls">Controls A-01–A-05</a></p></div>
             </div>
           </article>
 
@@ -126,7 +126,7 @@
             <div class="playbook-grid">
               <div><h4>Activities &amp; standards</h4><ul><li>Establish governance bodies, accountable owners, risk tiers, policies, segregation of duties, and exception authority.</li><li>Perform threat, privacy, safety, impact, supplier, resilience, and regulatory assessments.</li><li>Align to ISO/IEC 42001, 23894, 27001, 27701, NIST AI RMF/CSF, and applicable law.</li></ul></div>
               <div><h4>Checklist &amp; evidence</h4><ul><li>Users receive notice and recourse; incidents have playbooks; exceptions expire; evidence is tamper-evident.</li><li>Evidence: minutes, risk register, impact assessments, access reviews, incidents, training, exception decisions.</li><li>Metrics: control pass rate, incident severity/time-to-contain, overdue risks, exception age, recourse SLA.</li></ul></div>
-              <div><h4>Certification tests</h4><ol><li>Trace sampled risks to owner, treatment, control, test, and residual acceptance.</li><li>Exercise incident response, audit reconstruction, user challenge, and kill switch.</li><li>Verify mandatory training, independent oversight, supplier obligations, and exception expiry.</li></ol><p><a href="controls.html#t-controls">Controls T-01–T-06</a></p></div>
+              <div><h4>Certification tests</h4><ol><li>Trace sampled risks to owner, treatment, control, test, and residual acceptance.</li><li>Exercise incident response, audit reconstruction, user challenge, and kill switch.</li><li>Verify mandatory training, independent oversight, supplier obligations, and exception expiry.</li></ol><p><a href="trust-governance-guide.html">Trust &amp; Governance technology guide</a> · <a href="controls.html#t-controls">Controls T-01–T-06</a></p></div>
             </div>
           </article>
         </div>
